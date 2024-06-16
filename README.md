@@ -108,5 +108,8 @@ The next-word prediction model can be applied in various real-world scenarios, i
 
 ## Keras and TensorFlow
 This project is implemented using Keras, a high-level neural networks API, and TensorFlow, an open-source machine learning framework. Keras provides a user-friendly interface for building and training deep learning models, while TensorFlow provides efficient computation and scalability.
-![image](https://github.com/jaliyanimanthako/NextWordPredictor/assets/161110418/c9f37c39-0d10-4b60-a5aa-0a5795bf7c4f)
+<p align="center">
+<img src = https://github.com/jaliyanimanthako/NextWordPredictor/assets/161110418/c9f37c39-0d10-4b60-a5aa-0a5795bf7c4f>
+</p>
+
 
