@@ -54,8 +54,9 @@ The model is built using TensorFlow and Keras, and it includes the following lay
 
 The model is trained using the categorical cross-entropy loss function and the Adam optimizer, making it suitable for multi-class classification problems like next-word prediction.
 
-![model](https://github.com/jaliyanimanthako/NextWordPredictor/assets/161110418/4a652791-795b-4d14-bd52-b0c436cf22d3)
-
+<p align="center">
+<img src = https://github.com/jaliyanimanthako/NextWordPredictor/assets/161110418/4a652791-795b-4d14-bd52-b0c436cf22d3>
+</p>
 
 ## Key Concepts
 
@@ -71,15 +72,18 @@ The vocabulary is the set of unique words identified in the text data. During to
 
 The embedding layer is the first layer of the model. It converts the integer-encoded words into dense vectors of fixed size. These vectors, known as word embeddings, capture the semantic meaning of words. The embedding layer allows the model to work with continuous vector representations of words, which are more informative than discrete integers.
 
-![image](https://github.com/jaliyanimanthako/NextWordPredictor/assets/161110418/c637091c-6df4-47aa-ab6e-eaa47a1fe436)
+<p align="center">
+<img src = https://github.com/jaliyanimanthako/NextWordPredictor/assets/161110418/c637091c-6df4-47aa-ab6e-eaa47a1fe436>
+</p>
 
 
 ### LSTM
 
 Long Short-Term Memory (LSTM) is a type of recurrent neural network (RNN) architecture. LSTMs are particularly effective for sequence prediction tasks because they can capture long-term dependencies in the data. In this project, LSTM layers are used to process the sequences of word embeddings and predict the next word in the sequence. The LSTM layers help the model remember the context of the words, improving its prediction accuracy.
 
-![image](https://github.com/jaliyanimanthako/NextWordPredictor/assets/161110418/b182e687-05c7-44a5-ae3e-12fff58fed7d)
-
+<p align="center">
+<img src = https://github.com/jaliyanimanthako/NextWordPredictor/assets/161110418/b182e687-05c7-44a5-ae3e-12fff58fed7d>
+</p>
 
 ## Future Developments
 
